@@ -1,4 +1,4 @@
-# Estatísticas 2022 {#sec-dados-ouvidoria-2022}
+# Parâmetros 2022 {#sec-dados-ouvidoria-2022}
 
 ```{r message=FALSE}
 library(tidyverse)

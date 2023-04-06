@@ -6,7 +6,7 @@ project:
 book:
   title: "Relatório de Gestão da Ouvidoria Nacional dos Serviços Penais"
   author: "Ouvidoria Nacional dos Serviços Penais"
-  #date: today
+  date: today
   reader-mode: true
   page-navigation: true
   page-footer:
@@ -40,6 +40,7 @@ book:
 
   chapters:
     - index.qmd
+    - ficha_tecnica2022.qmd
     - introducao.qmd
     - projetos.qmd
     - acoes.qmd
@@ -63,7 +64,9 @@ format:
     css: style.css
     #page-layout: custom
   pdf:
-    documentclass: scrreprt
+    toc: true
+    number-sections: true
+    colorlinks: true
 
 knitr:
   opts_chunk:

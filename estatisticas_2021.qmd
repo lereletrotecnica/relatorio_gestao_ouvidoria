@@ -1,4 +1,4 @@
-# Estatísticas 2021 {#sec-dados-ouvidoria-2021}
+# Parâmetros 2021 {#sec-dados-ouvidoria-2021}
 
 ```{r message=FALSE}
 library(tidyverse)
@@ -113,12 +113,11 @@ producao <-
 
 Este capítulo traz as informações pormenorizadas acerca das solicitações, denúncias, reclamações, sugestões, elogios e/ou agradecimentos realizadas à Onasp no ano de `r vetor_filtro`.
 
-Principalmente, objetiva-se quantificar o trabalho exercido pela Onasp. Especificamente, este capítulo visa gerar índices qualitativos / quantitativos para apoio a tomada de decisão dos gestores e supervisionar o andamento das atividades de
-ouvidoria em âmbito nacional.
+Principalmente, objetiva-se quantificar o trabalho exercido pela Onasp. Especificamente, este capítulo visa gerar índices qualitativos / quantitativos para apoio a tomada de decisão dos gestores e supervisionar o andamento das atividades de ouvidoria em âmbito nacional.
 
-São analisados - numericamente e graficamente - os seguintes aspectos: características dos processos recebidos ([seção @sec-caracteristicas-processos-2021]); demandas tipificadas como solicitações ([seção @sec-solicitacoes-2021]); denúncias ([seção @sec-denuncias-2021]); reclamações ([seção @sec-reclamacoes-2021]); sugestões ([seção @sec-sugestoes-2021]); elogios ou agradecimentos ([seção @sec-elogios-2021]); e evolução dos índices gerados para controle do tempo de atendimento dos processos ([seção @sec-tempos-2021]).
+São analisados - numericamente e graficamente - os seguintes aspectos: características dos processos recebidos ([seção @sec-caracteristicas-processos-2021]); demandas tipificadas como solicitações ([seção @sec-solicitacoes-2021]); denúncias ([seção @sec-denuncias-2021]); reclamações ([seção @sec-reclamacoes-2021]); sugestões ([seção @sec-sugestoes-2021]); e elogios ou agradecimentos ([seção @sec-elogios-2021]). 
 
-Para ampliar o poder de visualização do trabalho, a metodologia de coleta de dados foi melhorada e novas informações foram agregadas em 2021. Como resultado, têm-se informações sobre a forma como os usuários acessam a ouvidoria ([seção @sec-meios-acesso-ouvidoria-2021]) e sobre a aptidão e tratamento dos requerimentos ([seção @sec-aptidao-2021]). Para o restante do quesitos, manteve-se a metodologia de análise das informações.
+Para ampliar o poder de visualização do trabalho, a metodologia de coleta de dados foi melhorada e novas informações foram agregadas em 2021. Como resultado, têm-se informações sobre a forma como os usuários acessam a ouvidoria ([seção @sec-meios-acesso-ouvidoria-2021]); sobre a aptidão e tratamento dos requerimentos ([seção @sec-aptidao-2021]); e sobre evolução dos índices gerados para controle do tempo de atendimento dos processos ([seção @sec-tempos-2021]). Para o restante do quesitos, manteve-se a metodologia de análise das informações.
 
 ::: callout-important
 ## Importante!!!
@@ -551,11 +550,7 @@ formattable::formattable(
 
  
 
-O gráfico na [figura @fig-tipo-demanda-2021] deixa clara a diferenciação quantitativa das características dos processos contendo solicitações. Sendo 
-`r max(dados_gerais_tipos_demandas$qtd)` 
-demandas tipificadas dessa maneira, ou seja, 
-`r str_c(max(dados_gerais_tipos_demandas$porcentagem),"%")` 
-são consideradas como **pedidos** de diversos modos.
+O gráfico na [figura @fig-tipo-demanda-2021] deixa clara a diferenciação quantitativa das características dos processos contendo solicitações. Sendo `r max(dados_gerais_tipos_demandas$qtd)` demandas tipificadas dessa maneira, ou seja, `r str_c(max(dados_gerais_tipos_demandas$porcentagem),"%")` são consideradas como **pedidos** de diversos modos.
 
 ```{r}
 #| label: fig-tipo-demanda-2021
@@ -1411,12 +1406,11 @@ tempos3 <-
 
 A descrição da metologia de contagem do tempo de atendimento consta na [seção @sec-tempos1].
 
-Dessa forma, surgem três índices para medição do tempo: **Tempo de chegada**, **Tempo de tratamento** e **Tempo total de atendimento**. 
+Dessa forma, surgem três índices para medição do tempo: **Tempo de chegada**, **Tempo de tratamento** e **Tempo total de atendimento**.
 
-- **Tempo de chegada:** tempo gasto entre a efetivação da demanda pelo manifestante e a chegada à Onasp. Para o caso de 
-demandas realizadas através de cartas físicas, a data do carimbo do selo dos correios é utilizada como referência;
+-   **Tempo de chegada:** tempo gasto entre a efetivação da demanda pelo manifestante e a chegada à Onasp. Para o caso de demandas realizadas através de cartas físicas, a data do carimbo do selo dos correios é utilizada como referência;
 
-- **Tempo de tratamento:** tempo entre a chegada da demanda e a conclusão do processo na Onasp;
+-   **Tempo de tratamento:** tempo entre a chegada da demanda e a conclusão do processo na Onasp;
 
 -   **Tempo total de atendimento:** O tempo necessário entre a efetivação da demanda pelo manifestante e a conclusão do processo na Ouvidoria Nacional dos Serviços Penais.
 
@@ -1470,7 +1464,7 @@ formattable::formattable(
 )
 ```
 
-&nbsp;
+ 
 
 ### Médias dos tempos de atendimento {#sec-tempo-medio-2021}
 
@@ -1637,4 +1631,3 @@ p17 <- p17 |> layout(
 p17
 
 ```
-

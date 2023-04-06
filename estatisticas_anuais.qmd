@@ -76,7 +76,7 @@ producao <-
 
 ```
 
-# Estatísticas no Período de Referência {#sec-estatisticas-anuais}
+# Parâmetros no Período de Referência {#sec-estatisticas-anuais}
 
 Este capítulo traz análises estatísticas com as evoluções anuais das manifestações tratadas pela Ouvidoria Nacional dos Serviços Penais (Onasp) no período entre `r min(producao$org_ano_inicio_tratamento)` e `r max(producao$org_ano_inicio_tratamento-1)`.
 
@@ -1414,7 +1414,6 @@ Nesse sentido, as metas temporais para atendimento das manifestações levam em 
 
     *A Onasp não tem controle sobre o índice do tempo de chegada, pois o mesmo depende de fatores externos, como por exemplo, demora para entrega de correspondência via correios ou envio de processos por outros órgãos.*
     :::
-
 
 ```{r}
 #| label: tbl-tempos

@@ -1,4 +1,4 @@
-# Tratamento Estatístico das Manifestações {#sec-tratamento-manifestacoes}
+# Parâmetros das Manifestações {#sec-tratamento-manifestacoes}
 
 A partir deste ponto, o relatório de gestão da Ouvidoria Nacional dos Serviços Penais traz as análises dos dados coletados acerca das manifestações recebidas.
 
@@ -16,5 +16,4 @@ A metodologia tem seguinte fluxo:
 
 6.  Atualização anual deste relatório de gestão.
 
-Nesse sentido, o [capítulo @sec-estatisticas-anuais] traz informações sobre a evolução das informações no período de 
-referência, o [capítulo @sec-dados-ouvidoria-2020] analisa os dados do ano de 2020, o [capítulo @sec-dados-ouvidoria-2021] evidencia as informações de 2021 e o [capítulo @sec-dados-ouvidoria-2022] mostra os gráficos e tabelas referentes ao ano de 2022.
+Nesse sentido, o [capítulo @sec-estatisticas-anuais] traz informações sobre a evolução das informações no período de referência, o [capítulo @sec-dados-ouvidoria-2020] analisa os dados do ano de 2020, o [capítulo @sec-dados-ouvidoria-2021] evidencia as informações de 2021 e o [capítulo @sec-dados-ouvidoria-2022] mostra os gráficos e tabelas referentes ao ano de 2022.
